@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5053"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -651,11 +651,13 @@
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="410"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="800"/>
+            <value key="minSize" type="size" width="480" height="410"/>
+            <value key="maxSize" type="size" width="1000" height="410"/>
             <view key="contentView" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="410"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFh-vr-KVL">
+                    <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFh-vr-KVL">
                         <rect key="frame" x="118" y="368" width="342" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Version 1.1 - New UI" drawsBackground="YES" id="gF5-ce-zrt">
@@ -664,7 +666,7 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zVj-hd-Ygj">
+                    <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zVj-hd-Ygj">
                         <rect key="frame" x="118" y="336" width="342" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="http://myawesomeapp.com/1-1.html" drawsBackground="YES" id="bBF-3l-K2J">
@@ -673,8 +675,8 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yEK-iC-Fo8">
-                        <rect key="frame" x="18" y="371" width="85" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yEK-iC-Fo8">
+                        <rect key="frame" x="18" y="371" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Title" id="jIo-Ih-qfE">
                             <font key="font" metaFont="systemBold"/>
@@ -682,8 +684,8 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jMA-Ig-tgu">
-                        <rect key="frame" x="18" y="339" width="76" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jMA-Ig-tgu">
+                        <rect key="frame" x="18" y="339" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Changelog" id="UVG-gI-Tid">
                             <font key="font" metaFont="systemBold"/>
@@ -700,14 +702,14 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="hcS-IE-Fka">
-                        <rect key="frame" x="0.0" y="208" width="480" height="4"/>
+                    <box autoresizesSubviews="NO" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="hcS-IE-Fka">
+                        <rect key="frame" x="0.0" y="208" width="480" height="5"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <font key="titleFont" metaFont="system"/>
                     </box>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q1p-cI-RYZ">
+                    <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q1p-cI-RYZ">
                         <rect key="frame" x="343" y="13" width="123" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Copy Release" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gim-ks-iyu">
@@ -718,7 +720,7 @@
                             <action selector="createRelease:" target="ZSE-Ub-Zr5" id="0YZ-CB-Y7n"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABu-a1-DIE">
+                    <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABu-a1-DIE">
                         <rect key="frame" x="118" y="145" width="342" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="http://myawesomeapp.com/myapp-1-1.zip" drawsBackground="YES" id="pwS-FH-bkh">
@@ -727,8 +729,8 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BQ9-UM-HV1">
-                        <rect key="frame" x="18" y="148" width="29" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BQ9-UM-HV1">
+                        <rect key="frame" x="18" y="148" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="URL" id="9Se-ja-21t">
                             <font key="font" metaFont="systemBold"/>
@@ -736,8 +738,8 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c0d-ga-G2R">
-                        <rect key="frame" x="18" y="116" width="76" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c0d-ga-G2R">
+                        <rect key="frame" x="18" y="116" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Version" id="uR4-9d-oOQ">
                             <font key="font" metaFont="systemBold"/>
@@ -745,7 +747,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wkC-1P-61i">
+                    <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wkC-1P-61i">
                         <rect key="frame" x="118" y="113" width="342" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="1.1" drawsBackground="YES" id="d85-6G-kij">
@@ -754,7 +756,7 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qp6-4p-m1K">
+                    <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qp6-4p-m1K">
                         <rect key="frame" x="118" y="81" width="342" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="hCSQFuHb123456" drawsBackground="YES" id="M00-zb-bio">
@@ -763,7 +765,7 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kTF-xd-dNF">
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kTF-xd-dNF">
                         <rect key="frame" x="18" y="84" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="DSA Signature" id="7Xh-Zv-j97">
@@ -772,8 +774,8 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EqD-TW-cBD">
-                        <rect key="frame" x="18" y="52" width="85" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EqD-TW-cBD">
+                        <rect key="frame" x="18" y="52" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Length" id="1fL-LA-rcu">
                             <font key="font" metaFont="systemBold"/>
@@ -781,7 +783,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLl-s4-0O5">
+                    <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLl-s4-0O5">
                         <rect key="frame" x="118" y="49" width="342" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="123457" drawsBackground="YES" id="n4J-G1-ZA4">
@@ -790,17 +792,20 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yt-YO-mD9">
-                        <rect key="frame" x="118" y="224" width="342" height="102"/>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yt-YO-mD9">
+                        <rect key="frame" x="118" y="219" width="342" height="107"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="107" id="ILb-pd-hJx"/>
+                        </constraints>
                         <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Updates: New Interface, less bugs (hopefully) etc." drawsBackground="YES" id="Y2i-CR-JyS">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fdo-TL-GTr">
-                        <rect key="frame" x="18" y="309" width="76" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fdo-TL-GTr">
+                        <rect key="frame" x="18" y="309" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Description" id="aFC-ca-AkL">
                             <font key="font" metaFont="system"/>
@@ -821,6 +826,25 @@
                         </textFieldCell>
                     </textField>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="6yt-YO-mD9" secondAttribute="trailing" constant="20" id="0PW-WY-PaD"/>
+                    <constraint firstItem="DLl-s4-0O5" firstAttribute="leading" secondItem="EqD-TW-cBD" secondAttribute="trailing" constant="8" id="1Qz-Hg-qmq"/>
+                    <constraint firstAttribute="trailing" secondItem="TFh-vr-KVL" secondAttribute="trailing" constant="20" id="2Ry-Xy-v4P"/>
+                    <constraint firstItem="6yt-YO-mD9" firstAttribute="leading" secondItem="fdo-TL-GTr" secondAttribute="trailing" constant="8" id="5pc-cM-sLc"/>
+                    <constraint firstItem="ABu-a1-DIE" firstAttribute="leading" secondItem="BQ9-UM-HV1" secondAttribute="trailing" constant="8" id="9Dd-8U-qgw"/>
+                    <constraint firstAttribute="trailing" secondItem="ABu-a1-DIE" secondAttribute="trailing" constant="20" id="C8W-7i-Sg9"/>
+                    <constraint firstAttribute="trailing" secondItem="zVj-hd-Ygj" secondAttribute="trailing" constant="20" id="G8R-mn-NRK"/>
+                    <constraint firstAttribute="trailing" secondItem="Qp6-4p-m1K" secondAttribute="trailing" constant="20" id="JTd-p3-LhH"/>
+                    <constraint firstAttribute="trailing" secondItem="q1p-cI-RYZ" secondAttribute="trailing" constant="20" id="WYp-ly-DKc"/>
+                    <constraint firstItem="Qp6-4p-m1K" firstAttribute="leading" secondItem="kTF-xd-dNF" secondAttribute="trailing" constant="8" id="ceC-Ug-URf"/>
+                    <constraint firstItem="wkC-1P-61i" firstAttribute="leading" secondItem="c0d-ga-G2R" secondAttribute="trailing" constant="8" id="jFa-Dd-VaJ"/>
+                    <constraint firstAttribute="trailing" secondItem="hcS-IE-Fka" secondAttribute="trailing" id="jcP-h7-fej"/>
+                    <constraint firstItem="hcS-IE-Fka" firstAttribute="leading" secondItem="372" secondAttribute="leading" id="kfH-uw-V2X"/>
+                    <constraint firstItem="TFh-vr-KVL" firstAttribute="leading" secondItem="yEK-iC-Fo8" secondAttribute="trailing" constant="8" id="n78-V2-u0u"/>
+                    <constraint firstAttribute="trailing" secondItem="DLl-s4-0O5" secondAttribute="trailing" constant="20" id="rkd-Nj-Vpy"/>
+                    <constraint firstItem="zVj-hd-Ygj" firstAttribute="leading" secondItem="jMA-Ig-tgu" secondAttribute="trailing" constant="8" id="xC0-gp-aph"/>
+                    <constraint firstAttribute="trailing" secondItem="wkC-1P-61i" secondAttribute="trailing" constant="20" id="yE9-SX-nXg"/>
+                </constraints>
             </view>
         </window>
         <customObject id="494" customClass="ACCAppDelegate">
