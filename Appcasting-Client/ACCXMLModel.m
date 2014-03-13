@@ -18,6 +18,9 @@
     [root addChild:[NSXMLNode elementWithName:@"title" stringValue:[content valueForKey:@"title"]]];
     [root addChild:[NSXMLNode elementWithName:@"sparkle:releaseNotesLink" stringValue:[content valueForKey:@"releaseNotes"]]]; //TODO: Check if provided string is link
     [root addChild:[NSXMLNode elementWithName:@"pubDate" stringValue:[self RFC822Date]]];
+    if ([content valueForKey:@"description"]) {
+        [root addChild:[NSXMLNode elementWithName:@"description" stringValue:[content valueForKey:@"description"]]];
+    }
     NSXMLNode *url = [[NSXMLNode alloc] initWithKind:NSXMLAttributeKind];
     [url setName:@"url"];
     [url setStringValue:[content valueForKey:@"enclosureURL"]];
