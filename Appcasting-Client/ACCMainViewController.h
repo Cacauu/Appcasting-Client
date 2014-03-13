@@ -14,6 +14,7 @@
 @property (weak) IBOutlet NSTextField *titleField;
 @property (weak) IBOutlet NSTextField *releaseNotesField;
 @property (weak) IBOutlet NSTextField *descriptionField;
+@property (weak) IBOutlet NSTextField *minimumOSField;
 @property (weak) IBOutlet NSTextField *enclosureURLField;
 @property (weak) IBOutlet NSTextField *enclosureVersionField;
 @property (weak) IBOutlet NSTextField *enclosureDSAField;

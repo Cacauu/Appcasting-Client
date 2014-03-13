@@ -18,6 +18,9 @@
     if ([[_descriptionField stringValue] isNotEqualTo:@""]) {
         [content setObject:[_descriptionField stringValue] forKey:@"description"];
     }
+    if ([[_minimumOSField stringValue] isNotEqualTo:@""]) {
+        [content setObject:[_minimumOSField stringValue] forKey:@"minimumOS"];
+    }
     [content setObject:[_enclosureURLField stringValue] forKey:@"enclosureURL"];
     [content setObject:[_enclosureVersionField stringValue] forKey:@"enclosureVersion"];
     if ([[_enclosureDSAField stringValue] isNotEqualTo:@""]) {

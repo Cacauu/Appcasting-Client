@@ -649,16 +649,16 @@
         <window title="Appcasting-Client" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="410"/>
+            <rect key="contentRect" x="335" y="390" width="480" height="442"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="800"/>
-            <value key="minSize" type="size" width="480" height="410"/>
-            <value key="maxSize" type="size" width="1000" height="410"/>
+            <value key="minSize" type="size" width="480" height="442"/>
+            <value key="maxSize" type="size" width="1000" height="442"/>
             <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="410"/>
+                <rect key="frame" x="0.0" y="0.0" width="480" height="442"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFh-vr-KVL">
-                        <rect key="frame" x="118" y="368" width="342" height="22"/>
+                        <rect key="frame" x="118" y="400" width="342" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Version 1.1 - New UI" drawsBackground="YES" id="gF5-ce-zrt">
                             <font key="font" metaFont="system"/>
@@ -667,7 +667,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zVj-hd-Ygj">
-                        <rect key="frame" x="118" y="336" width="342" height="22"/>
+                        <rect key="frame" x="118" y="368" width="342" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="http://myawesomeapp.com/1-1.html" drawsBackground="YES" id="bBF-3l-K2J">
                             <font key="font" metaFont="system"/>
@@ -676,7 +676,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yEK-iC-Fo8">
-                        <rect key="frame" x="18" y="371" width="94" height="17"/>
+                        <rect key="frame" x="18" y="403" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Title" id="jIo-Ih-qfE">
                             <font key="font" metaFont="systemBold"/>
@@ -685,7 +685,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jMA-Ig-tgu">
-                        <rect key="frame" x="18" y="339" width="94" height="17"/>
+                        <rect key="frame" x="18" y="371" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Changelog" id="UVG-gI-Tid">
                             <font key="font" metaFont="systemBold"/>
@@ -703,7 +703,7 @@
                         </textFieldCell>
                     </textField>
                     <box autoresizesSubviews="NO" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="hcS-IE-Fka">
-                        <rect key="frame" x="0.0" y="208" width="480" height="5"/>
+                        <rect key="frame" x="0.0" y="204" width="480" height="5"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -793,7 +793,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yt-YO-mD9">
-                        <rect key="frame" x="118" y="219" width="342" height="107"/>
+                        <rect key="frame" x="118" y="251" width="342" height="107"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="107" id="ILb-pd-hJx"/>
@@ -805,7 +805,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fdo-TL-GTr">
-                        <rect key="frame" x="18" y="309" width="94" height="17"/>
+                        <rect key="frame" x="18" y="341" width="94" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Description" id="aFC-ca-AkL">
                             <font key="font" metaFont="system"/>
@@ -825,6 +825,24 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t8q-l2-plZ">
+                        <rect key="frame" x="13" y="223" width="104" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Min. OS Version" id="HSJ-br-GYF">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kLc-Zr-udk">
+                        <rect key="frame" x="118" y="219" width="342" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="10.9.2" drawsBackground="YES" id="KIo-eV-W77">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="6yt-YO-mD9" secondAttribute="trailing" constant="20" id="0PW-WY-PaD"/>
@@ -834,6 +852,7 @@
                     <constraint firstItem="ABu-a1-DIE" firstAttribute="leading" secondItem="BQ9-UM-HV1" secondAttribute="trailing" constant="8" id="9Dd-8U-qgw"/>
                     <constraint firstAttribute="trailing" secondItem="ABu-a1-DIE" secondAttribute="trailing" constant="20" id="C8W-7i-Sg9"/>
                     <constraint firstAttribute="trailing" secondItem="zVj-hd-Ygj" secondAttribute="trailing" constant="20" id="G8R-mn-NRK"/>
+                    <constraint firstItem="kLc-Zr-udk" firstAttribute="leading" secondItem="t8q-l2-plZ" secondAttribute="trailing" constant="3" id="Hrq-ls-nrq"/>
                     <constraint firstAttribute="trailing" secondItem="Qp6-4p-m1K" secondAttribute="trailing" constant="20" id="JTd-p3-LhH"/>
                     <constraint firstAttribute="trailing" secondItem="q1p-cI-RYZ" secondAttribute="trailing" constant="20" id="WYp-ly-DKc"/>
                     <constraint firstItem="Qp6-4p-m1K" firstAttribute="leading" secondItem="kTF-xd-dNF" secondAttribute="trailing" constant="8" id="ceC-Ug-URf"/>
@@ -842,6 +861,7 @@
                     <constraint firstItem="hcS-IE-Fka" firstAttribute="leading" secondItem="372" secondAttribute="leading" id="kfH-uw-V2X"/>
                     <constraint firstItem="TFh-vr-KVL" firstAttribute="leading" secondItem="yEK-iC-Fo8" secondAttribute="trailing" constant="8" id="n78-V2-u0u"/>
                     <constraint firstAttribute="trailing" secondItem="DLl-s4-0O5" secondAttribute="trailing" constant="20" id="rkd-Nj-Vpy"/>
+                    <constraint firstAttribute="trailing" secondItem="kLc-Zr-udk" secondAttribute="trailing" constant="20" id="wOF-TD-LOO"/>
                     <constraint firstItem="zVj-hd-Ygj" firstAttribute="leading" secondItem="jMA-Ig-tgu" secondAttribute="trailing" constant="8" id="xC0-gp-aph"/>
                     <constraint firstAttribute="trailing" secondItem="wkC-1P-61i" secondAttribute="trailing" constant="20" id="yE9-SX-nXg"/>
                 </constraints>
@@ -861,6 +881,7 @@
                 <outlet property="enclosureLengthField" destination="DLl-s4-0O5" id="XBM-wS-yDr"/>
                 <outlet property="enclosureURLField" destination="ABu-a1-DIE" id="cYX-4Z-gti"/>
                 <outlet property="enclosureVersionField" destination="wkC-1P-61i" id="lTo-hI-79y"/>
+                <outlet property="minimumOSField" destination="kLc-Zr-udk" id="VY2-J6-aCS"/>
                 <outlet property="releaseNotesField" destination="zVj-hd-Ygj" id="096-wZ-KvE"/>
                 <outlet property="titleField" destination="TFh-vr-KVL" id="xCo-KG-DxQ"/>
             </connections>

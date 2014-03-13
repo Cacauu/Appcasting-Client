@@ -21,6 +21,9 @@
     if ([content valueForKey:@"description"]) {
         [root addChild:[NSXMLNode elementWithName:@"description" stringValue:[content valueForKey:@"description"]]];
     }
+    if ([content valueForKey:@"minimumOS"]) {
+        [root addChild:[NSXMLNode elementWithName:@"sparkle:minimumSystemVersion" stringValue:[content valueForKey:@"minimumOS"]]];
+    }
     NSXMLNode *url = [[NSXMLNode alloc] initWithKind:NSXMLAttributeKind];
     [url setName:@"url"];
     [url setStringValue:[content valueForKey:@"enclosureURL"]];
